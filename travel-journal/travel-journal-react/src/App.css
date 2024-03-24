@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+    background-color: #d9d9d9;
+}
+
+.card--wrapper {
+    display: flex;
+    gap: 40px;
+    flex-flow: column;
+    width: 540px;
+    margin: auto;
+    background: #FFF;
+    padding: 40px;
+}
+
+.header {
+    background-color: #f55a5a;
+    width: 540px;
+    padding: 20px;
+    margin: auto;
+    text-transform: uppercase;
+    color: wheat;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 19px;
+}
+
+.card--image {
+    width: 170px;
+    object-fit: cover;
+}
+
+.card--content {
+    padding: 19px 0px;
+}
+
+.card--map_icon {
+    width: 7px;
+}
+
+.card--location_top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 7px;
+}
+
+.card--location_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.card--location-map_link {
+    color: #918E9B;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.card--location {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.741px;
+}
+
+.card--date_wrapper {
+    display: flex;
+    align-items: center;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.card--date_divider {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.card--title {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.card--description {
+    color: #2B283A;
+    font-family: Inter;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

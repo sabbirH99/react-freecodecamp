@@ -1,0 +1,32 @@
+export default [
+    {
+        id: 1,
+        title: "Origianl Kiwi Juice",
+        size: "70 ML",
+        rating: 4.9,
+        reviewCount: "10K",
+        price: 39,
+        stock: 2,
+        productImage: "image.png",
+    },
+    {
+        id: 2,
+        title: "Origianl Strawberry Juice",
+        size: "70 ML",
+        rating: 4.9,
+        reviewCount: "10K",
+        price: 39,
+        stock: 2,
+        productImage: "image.png",
+    },
+    {
+        id: 3,
+        title: "Origianl Dano Juice",
+        size: "70 ML",
+        rating: 4.9,
+        reviewCount: "10K",
+        price: 39,
+        stock: 2,
+        productImage: "image.png",
+    },
+]
